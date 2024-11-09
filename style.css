@@ -74,4 +74,5 @@ button{
     font-size: large;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
+    box-shadow:0 2px 5px blue;
 }
