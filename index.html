@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <centre>
+    <h1>Static Interactive Resume Builder</h1>
+    <div class="outer">
+    <form id="resumeform">
+        <fieldset class="fieldset">
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name " required><br/>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br/>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br/>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br/>
+
+
+            <label for="picture">Profile Picture:</label>
+            <input type="file" id="picture" name="picture" accept="image/*" required></textarea><br/>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>EDUCATION</legend>
+            <label for="name">Education:</label>
+            <textarea id="education" name="education" rows="4" required></textarea><br/>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>SKILLS</legend>
+            <label for="name">Skills:</label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br/>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>WORK EXPERIENCE</legend>
+            <label for="name">Experience:</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea><br/>
+        </fieldset>
+        <button>Generate Resume</button>
+    </form>
+    </div>
+    </centre>
+    
+</body>
+</html>
